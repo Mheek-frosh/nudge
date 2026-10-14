@@ -190,7 +190,7 @@ export const useAppStore = create<AppState>((set, get) => ({
       settings,
       now: now.getTime(),
       bubbleOpen: false,
-      pulse: seeded.notifications.some((item) => item.priority === 'urgent') ? get().pulse + 1 : get().pulse,
+      pulse: 0,
     });
   },
 
