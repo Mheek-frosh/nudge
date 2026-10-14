@@ -6,7 +6,7 @@ Nudge is a demo attention assistant. It shows a focused feed of sample messages,
 
 ## Run it on an iPhone
 
-Use the Expo Go app from the Apple App Store. That app currently supports **Expo SDK 54**. Newer SDKs are not in the store build, so this project stays on SDK 54 on purpose.
+Use the Expo Go app from the Apple App Store. This project uses **Expo SDK 57**, which matches the current iPhone Expo Go app.
 
 1. Install dependencies:
 

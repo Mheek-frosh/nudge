@@ -138,8 +138,8 @@ export function AttentionPanel() {
 }
 
 const styles = StyleSheet.create({
-  fill: { ...StyleSheet.absoluteFillObject, justifyContent: 'flex-end' },
-  backdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: colors.overlay },
+  fill: { ...StyleSheet.absoluteFill, justifyContent: 'flex-end' },
+  backdrop: { ...StyleSheet.absoluteFill, backgroundColor: colors.overlay },
   sheet: {
     marginHorizontal: space.md,
     backgroundColor: colors.card,

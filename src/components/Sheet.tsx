@@ -31,7 +31,7 @@ export function Sheet({ visible, title, onClose, children }: Props) {
 
 const styles = StyleSheet.create({
   fill: { flex: 1, justifyContent: 'flex-end' },
-  backdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: colors.overlay },
+  backdrop: { ...StyleSheet.absoluteFill, backgroundColor: colors.overlay },
   sheet: {
     backgroundColor: colors.card,
     borderTopLeftRadius: radii.xl,
